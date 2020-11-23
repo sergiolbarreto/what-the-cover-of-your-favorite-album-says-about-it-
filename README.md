@@ -1,7 +1,7 @@
 # What the cover of your favorite album says about it?
 ***
   Projeto requisitado pela disciplina Introdução à Computação da UFPE que consiste em um programa, envolvendo o básico de machine learning e database com Python, que 
-  ao ser requisitado um endereço de imagem de um álbum o programa retorna, com base nos elementos e cores da imagem, sobre que tipo de músicas - felizes, tristes, 
+  ao ser requisitado um endereço de imagem de um álbum, o programa retorna, com base nos elementos e cores da imagem, sobre que tipo de músicas - felizes, tristes, 
   progressivas ou clássicas - vão conter tal álbum.
   
   ![imagem_projeto_4](https://user-images.githubusercontent.com/70080558/99922752-e20a8900-2d10-11eb-8636-f2230af83a2b.png)
