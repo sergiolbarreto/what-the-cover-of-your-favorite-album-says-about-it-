@@ -23,4 +23,4 @@
 
 - Para executar o site é necessário ter o Streamlit na sua máquina. Para instalar, abra o terminal do seu computador e digite o comando `pip install streamlit`
 - Em seguida, clone o repositório e, no local do arquivo, digite o comando, de novo no terminal,  `streamlit run icproject2.0.py`. O site abrirá automaticmante e estará
-pronto para uso. Dirvita-se!
+pronto para uso. Dirvita-se! 😝
