@@ -33,6 +33,8 @@ def classify(imageurl):
 
 
 st.title('what the cover of your favorite album says about it?')
+st.subheader('“ Without music, life would be a mistake."')
+st.subheader('― Friedrich Nietzsche, Twilight of the Idols')
 st.header(
     'Olá, quer saber, apenas pela capa do seu álbum favorito, se ele se parece mais com um álbum triste, feliz, '
     'clássico ou '
@@ -56,15 +58,15 @@ if st.button('Enviar'):
                  " Então se estiver em um dia ruim, ou não, e quiser apenas relaxar com algo meio melancólico sobre "
                  "relacionamentos, vida ou alguma situação, apenas escute." % confidence)
         st.info("Se você gosta desse álbum recomendamos: AM, de Arctic Monkeys, Is This It, de The Strokes e "
-                "Ultraviolence, de Lana Del Rey na parte internacional e qualquer album de Jorge e Mateus, Henrique e "
+                "Ultraviolence, de Lana Del Rey na parte internacional e qualquer álbum de Jorge e Mateus, Henrique e "
                 "Juliano e Marilia Mendonça na parte nacional ")
     elif label == 'progressive':
-        st.write("Olha o que temos aqui!!! Pela capa do seu álbum, temos %d%% que ele se trata de um álbum "
+        st.write("Olha o que temos aqui!!! Pela capa do seu álbum, temos %d%% de certeza que ele se trata de um álbum "
                  "progressivo ou que pelo menos algumas de suas músicas são. A música progressiva expande as "
                  "fronteiras estilísticas existentes associadas a gêneros musicais específicos, ou seja, suas músicas "
                  "são tão diferentes e especiais como a capa do seu álbum. Tenha uma boa apreciação." % confidence)
 
-        st.info("Se você gosta desse álbum recomendamos: qualquer álbum do Pink Floyd se você busca algo"
+        st.info("Se você gosta desse álbum recomendamos: qualquer álbum do Pink Floyd se você busca algo "
                 "internacional e quaquer uma do Boogarins se você quer algo nacional.")
     elif label == 'happy':
         st.write("Feliz como você! Artisticamente falando, e com %d%% de confiança, esse parece ser um álbum com "
@@ -74,7 +76,8 @@ if st.button('Enviar'):
         st.info("Se você gosta desse álbum recomendamos: Loud, de Rihanna, O Tempo é Agora, de Anavitória e Dança "
                 "Entre Casais, de Jovem Dionisio")
     elif label == 'classic':
-        st.write("A comunidade clássica está em festa!! Pela capa desse álbum, garantimos em %d%% que se trata de um "
+        st.write("A comunidade clássica está em festa!! Pela capa desse álbum, garantimos em %d%% de certeza que se "
+                 "trata de um "
                  "álbum clássico. "
                  "Melodias originais, eternas e sensitivas o/a esperam. Aprecie ao máximo." % confidence)
 
