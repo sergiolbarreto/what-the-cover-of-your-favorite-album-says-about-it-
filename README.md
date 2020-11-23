@@ -24,3 +24,6 @@
 - Para executar o site é necessário ter o Streamlit na sua máquina. Para instalar, abra o terminal do seu computador e digite o comando `pip install streamlit`
 - Em seguida, clone o repositório e, no local do arquivo, digite o comando, de novo no terminal,  `streamlit run icproject2.0.py`. O site abrirá automaticamente e estará
 pronto para uso. Divirta-se! 😝
+
+## ❗ P.S.
+Foi requisitado que eu usasse o Machine Learning for Kids (https://machinelearningforkids.co.uk/) no projeto, o que é um bom site. Porém, um ponto negativo é que só podemos usar até 100 imagens no database. Logo, o programa não é totalmente preciso e é suscetível a erros, como qualquer outro. Além disso, como estamos analisando apenas a capa do álbum, há também a possibilidade de o artista não querer fazer uma arte condizente com os sentimentos das músicas que estão no disco. As imagens foram selecionadas cuidadosamente para buscar a melhor aprendizagem de máquina possível, que é o que garante uma boa porcentagem de acertos na maioria das imagens. Cabe a você testar e ver se conseguimos acertar sobre o seu álbum favorito! 😝
