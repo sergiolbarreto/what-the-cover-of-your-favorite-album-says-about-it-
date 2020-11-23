@@ -50,7 +50,7 @@ if st.button('Enviar'):
     label = demo["class_name"]
     confidence = demo["confidence"]
     st.balloons()
-    
+
     # CHANGE THIS to do something different with the result
     st.success("Aqui estão os resultados:")
     st.image([user_input], width=300)
