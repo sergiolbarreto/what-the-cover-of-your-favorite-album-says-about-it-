@@ -54,7 +54,11 @@ if st.button('Enviar'):
     # CHANGE THIS to do something different with the result
     st.success("Aqui estão os resultados:")
     st.image([user_input], width=300)
-    if label == 'sad':
+
+    if confidence < 70:
+        st.write("Talvez isso não seja uma capa de um álbum ou seu álbum é muito incrível para ser rotulado em apenas "
+                 "uma dessas categorias. Tente outra imagem!")
+    elif label == 'sad':
         st.write("Olá pessoa que gosta de sofrer. Temos %d%% de certeza que esse álbum contém músicas tristes."
                  " Então se estiver em um dia ruim, ou não, e quiser apenas relaxar com algo meio melancólico sobre "
                  "relacionamentos, vida ou alguma situação, apenas escute." % confidence)
@@ -84,3 +88,4 @@ if st.button('Enviar'):
 
         st.info("Se você gosta desse álbum recomendamos: Classical Sunday, de Ludwig Van Beethoven, Tchaikovsky suite "
                 "no. 4, de Piotr Ilitch Tchaikovsk e Making Out To Mozart, de Wolfgang Amadeus Mozart")
+
