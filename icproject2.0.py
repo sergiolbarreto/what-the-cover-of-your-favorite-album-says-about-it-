@@ -20,7 +20,7 @@ def getImageUrlData(wwwLocationOfImage):
 # and return the top result with the highest confidence
 def classify(imageurl):
     key = "8919f4b0-2280-11eb-9ffb-71e2cfe99e113f0b5ae3-0f0e-49da-be1f-13a3bc8cb55b"
-    url = "https://machinelearningforkids.co.uk/api/scratch/" + key + "/classify"
+    url = "https://machinelearningforkids.co.uk/api/scratch/"+ key + "/classify"
 
     response = requests.post(url, json={"data": getImageUrlData(imageurl)})
 
